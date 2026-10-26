@@ -1,4 +1,5 @@
 flask
+sqlalchemy
 hypothesis
 pytest
 coverage

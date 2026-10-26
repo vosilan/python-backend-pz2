@@ -4,7 +4,7 @@
 """
 
 from client import PREFIX, ApiClient, ApiError
-from model import now
+from db import now
 
 URL = "http://127.0.0.1:5019"
 OLD_SECONDS = 10 * 60

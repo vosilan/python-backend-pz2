@@ -6,6 +6,7 @@
 затем сравнивает результаты
 """
 
+import tempfile
 import threading
 
 import pytest
@@ -19,6 +20,7 @@ from werkzeug.serving import make_server
 import app as web
 from client import PREFIX, ApiClient, ApiError
 
+web.store.connect(f"sqlite:///{tempfile.mkdtemp()}/test.sqlite")
 web.app.config["COMPRESS"] = web.fake_compress
 SERVER = make_server("127.0.0.1", 0, web.app)
 threading.Thread(target=SERVER.serve_forever, daemon=True).start()
@@ -65,7 +67,7 @@ class ApiMachine(RuleBasedStateMachine):
     instructions = Bundle("instructions")
 
     def __init__(self):
-        """Очистить данные сервера и завести пустую модель"""
+        """Очистить базу сервера и завести пустую модель"""
         super().__init__()
         web.store.reset()
         self.client = ApiClient(URL)

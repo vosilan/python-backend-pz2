@@ -1,6 +1,6 @@
 """HTTP API на Flask: обработчики из табл. 19 варианта
 
-Тело запросов и ответов в XML. Данные хранятся в памяти (model.py).
+Тело запросов и ответов в XML. Данные хранятся в SQLite (db.py).
 Задача сжатия выполняется утилитой xzpack.py в отдельном процессе,
 в тестовом режиме (XZ_FAKE=1) процесс не запускается
 """
@@ -14,7 +14,7 @@ from xml.etree.ElementTree import ParseError
 
 from flask import Flask, Response, request
 
-import model as store
+import db as store
 import xmlio
 
 PREFIX = "/core/api/v2"
@@ -172,7 +172,8 @@ def fetch_report():
 
 
 def main():
-    """Запустить сервер"""
+    """Подключить базу и запустить сервер"""
+    store.connect("sqlite:///data.sqlite")
     app.run(port=PORT)
 
 
