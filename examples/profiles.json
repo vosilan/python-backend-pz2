@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 2,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 3,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 4,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 5,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 6,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 7,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 8,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 9,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 10,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 11,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 12,
+    "platform": "windows",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 13,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 14,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 15,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 16,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 17,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 18,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 19,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 20,
+    "platform": "linux",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 21,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 22,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 23,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 24,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 25,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 26,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 27,
+    "platform": "windows",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 28,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 29,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 30,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 31,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 32,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 33,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 34,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 35,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 36,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 37,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 38,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 39,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 40,
+    "platform": "windows",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 41,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 42,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 43,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 44,
+    "platform": "macos",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 45,
+    "platform": "windows",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 46,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 47,
+    "platform": "linux",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 48,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 49,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 50,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 51,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 52,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 53,
+    "platform": "macos",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 54,
+    "platform": "windows",
+    "user_agent": "Firefox",
+    "stage": "done"
+  },
+  {
+    "id": 55,
+    "platform": "linux",
+    "user_agent": "Firefox",
+    "stage": "failed"
+  },
+  {
+    "id": 56,
+    "platform": "linux",
+    "user_agent": "Safari",
+    "stage": "done"
+  },
+  {
+    "id": 57,
+    "platform": "windows",
+    "user_agent": "Safari",
+    "stage": "failed"
+  },
+  {
+    "id": 58,
+    "platform": "macos",
+    "user_agent": "Chrome",
+    "stage": "failed"
+  },
+  {
+    "id": 59,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "done"
+  },
+  {
+    "id": 60,
+    "platform": "windows",
+    "user_agent": "Chrome",
+    "stage": "done"
+  }
+]
