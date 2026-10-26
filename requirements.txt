@@ -1,2 +1,6 @@
+flask
+hypothesis
+pytest
+coverage
 flake8
 pep8-naming
